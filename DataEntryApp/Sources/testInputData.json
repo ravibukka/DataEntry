@@ -1,0 +1,51 @@
+[
+    {
+        "Questions": "What is your favourite food?",
+        "Answers": ["Palav","Parotha","Idli_Sambar","Poori","Dosa"],
+        "ReasonSelect" :[
+            "Why you like this food?",
+            "What else you like on top of this?",
+            "Do you know the nutrition value of this food?",
+            "You like any alternative?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    },
+    {
+        "Questions": "What is your height?",
+        "Answers": ["Taller","Shorter","Ideal","Too Tall", "Too Shorter"],
+        "ReasonSelect" :[
+            "Is your height is ideal as per BMI?",
+            "Is your height is lesser?",
+            "Is your height is more?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    },
+    {
+        "Questions": "What is your weight?",
+        "Answers": ["Over weight","Under weight","Heavy","light"],
+        "ReasonSelect" :[
+            "You want to reduce the weight?",
+            "You want to increase the weight?",
+            "You want to maintain current weight?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    }
+]

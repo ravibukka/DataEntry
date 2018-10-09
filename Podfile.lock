@@ -1,0 +1,16 @@
+PODS:
+  - SimpleTwoWayBinding (0.0.2)
+
+DEPENDENCIES:
+  - SimpleTwoWayBinding
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SimpleTwoWayBinding
+
+SPEC CHECKSUMS:
+  SimpleTwoWayBinding: de39917a921732dcb0dc0a0d120542fbfa7bd159
+
+PODFILE CHECKSUM: e0c69d799ef7f9dccade7808f310802ab92bb9fc
+
+COCOAPODS: 1.5.3

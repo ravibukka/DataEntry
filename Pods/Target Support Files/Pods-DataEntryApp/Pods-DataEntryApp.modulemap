@@ -1,0 +1,6 @@
+framework module Pods_DataEntryApp {
+  umbrella header "Pods-DataEntryApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

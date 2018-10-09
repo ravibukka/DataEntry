@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0526C6827B64B400141E78406144E8FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		058F06188894099A6D891F97112AA9C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		0D885C6B4B0A06CE3A9521A70EC542F0 /* SimpleTwoWayBinding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A941A691443BAA8DC49BB5876B3C9845 /* SimpleTwoWayBinding-dummy.m */; };
+		247D076AFC91AFD6561A6F1E6A4A0D2C /* NSObject+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C28DB4276D47CAF879DCF09D37B95 /* NSObject+Observable.swift */; };
+		3278C8CAA654CAFAD26ECDDD9F85508A /* BlockBasedSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BB8BF5D5921DEF2B528507CFC85B8B /* BlockBasedSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEDBF101259CC8973955B27DF122942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		64F6C812DB87272264A63191342E0C4F /* Pods-DataEntryApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BFFFDD976BD98F3D80030AA6318AEC /* Pods-DataEntryApp-dummy.m */; };
+		7B6AF942749BFE34D023E22547FF50B0 /* SimpleTwoWayBindings-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 37216541AA5E6B14EC480E218BFFD40C /* SimpleTwoWayBindings-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F5B0EBC0BD2649602695F8EF15A18DE /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA1C9A66D76290561A57574207A631 /* Observable.swift */; };
+		8F82F84D143F43516281A3E527B5AFA0 /* BlockBasedSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791BBCC6A6FEBF57172CB52CB273A683 /* BlockBasedSelector.swift */; };
+		AB24504B8EAD5B1ED00CC277B2AFD8FE /* UIControls+Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B23520DDCDA1D583D6C531975B134 /* UIControls+Bindable.swift */; };
+		B6A2839EE5A4662B749C4E6C70E4613C /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225A1B8B884446F282A9951F3CA2CBCF /* Bindable.swift */; };
+		C38050C27C8BBD3262FC58CC09B747C7 /* Pods-DataEntryAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6DA5A90D2BDBF25B8F66CCE19201E6 /* Pods-DataEntryAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7D9A42450670650F918016D589951A3 /* Pods-DataEntryAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD952288E5A2B775EA64AFC94BDA8C /* Pods-DataEntryAppTests-dummy.m */; };
+		EDDFD6B2A97B67B0DCABD06BD13F2C59 /* Pods-DataEntryApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C1C7B511642E459E729E866D152347 /* Pods-DataEntryApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F083216993065A4DDDC18484D5C37958 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		FA3BE417DF699055113DE0E6808E9330 /* BlockBasedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D064A49BAE8835D88B443B85D66927D /* BlockBasedSelector.m */; };
+		FA6B0CE2F6D38B9D0CF1A04D9C6B4EB6 /* SimpleTwoWayBinding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E00B9409824F624246C06669666465 /* SimpleTwoWayBinding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01B561190C3A47BA50842AE8D4CC3C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD849A0EB16C72963B13408A18AC115;
+			remoteInfo = SimpleTwoWayBinding;
+		};
+		3A60FAF18D5BB86F9931943A139DD907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204C7E34BD63C9772D84C405961DB668;
+			remoteInfo = "Pods-DataEntryApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BB3BF36BE98DFB6ED33B911CD4CCFE /* Pods-DataEntryApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataEntryApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0126F42C080DF5CB060478263D7D5A5C /* SimpleTwoWayBinding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleTwoWayBinding-prefix.pch"; sourceTree = "<group>"; };
+		0561E3BDE7D0F70132ED77117A45AB23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0987FF1FEA6B8A668C3BD11A1DD7C8CD /* Pods-DataEntryApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataEntryApp.modulemap"; sourceTree = "<group>"; };
+		124C28DB4276D47CAF879DCF09D37B95 /* NSObject+Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Observable.swift"; path = "Sources/NSObject+Observable.swift"; sourceTree = "<group>"; };
+		18BB8BF5D5921DEF2B528507CFC85B8B /* BlockBasedSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockBasedSelector.h; path = Sources/BlockBasedSelector/BlockBasedSelector.h; sourceTree = "<group>"; };
+		198C73214A6D5B6FC3B2A71C8C8D0188 /* Pods-DataEntryAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataEntryAppTests-resources.sh"; sourceTree = "<group>"; };
+		225A1B8B884446F282A9951F3CA2CBCF /* Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bindable.swift; path = Sources/Bindable.swift; sourceTree = "<group>"; };
+		25E00B9409824F624246C06669666465 /* SimpleTwoWayBinding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleTwoWayBinding-umbrella.h"; sourceTree = "<group>"; };
+		2B6DA5A90D2BDBF25B8F66CCE19201E6 /* Pods-DataEntryAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataEntryAppTests-umbrella.h"; sourceTree = "<group>"; };
+		335D5203FDB3B5750679951D57EFCE25 /* Pods-DataEntryAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataEntryAppTests.modulemap"; sourceTree = "<group>"; };
+		33FA1C9A66D76290561A57574207A631 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = Sources/Observable.swift; sourceTree = "<group>"; };
+		37216541AA5E6B14EC480E218BFFD40C /* SimpleTwoWayBindings-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SimpleTwoWayBindings-Bridging-Header.h"; path = "Sources/SimpleTwoWayBindings-Bridging-Header.h"; sourceTree = "<group>"; };
+		382A658344D46351563CF90863A21AA8 /* Pods-DataEntryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataEntryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3866BEC33907ABE6FE8D969C637A16D2 /* SimpleTwoWayBinding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleTwoWayBinding.framework; path = SimpleTwoWayBinding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C1C7B511642E459E729E866D152347 /* Pods-DataEntryApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataEntryApp-umbrella.h"; sourceTree = "<group>"; };
+		495015D83959362A28D4465D3C21EDF4 /* Pods-DataEntryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataEntryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		49BFFFDD976BD98F3D80030AA6318AEC /* Pods-DataEntryApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataEntryApp-dummy.m"; sourceTree = "<group>"; };
+		4B2A1273A07BBBD4926ABAEDA860B446 /* SimpleTwoWayBinding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleTwoWayBinding.xcconfig; sourceTree = "<group>"; };
+		4D8150DF901C7BCEBC95B2D4B04BEAF7 /* Pods-DataEntryAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataEntryAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		4E21D499EA4C1E65D0196ECB60B28259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A6F431EC4D82813A1789B9F8F1D8D8 /* Pods-DataEntryAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataEntryAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5997A2A96C1992A985C1EC4E15F40038 /* Pods_DataEntryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DataEntryApp.framework; path = "Pods-DataEntryApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDC4171447DB0D86CF4732AE0DA201F /* Pods-DataEntryApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataEntryApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FFD952288E5A2B775EA64AFC94BDA8C /* Pods-DataEntryAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataEntryAppTests-dummy.m"; sourceTree = "<group>"; };
+		60FB1790F4240B9C3DD488B8130BADD2 /* Pods-DataEntryAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataEntryAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66E3BD9D00568093077AF9A314E680B8 /* SimpleTwoWayBinding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleTwoWayBinding.modulemap; sourceTree = "<group>"; };
+		6D064A49BAE8835D88B443B85D66927D /* BlockBasedSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlockBasedSelector.m; path = Sources/BlockBasedSelector/BlockBasedSelector.m; sourceTree = "<group>"; };
+		791BBCC6A6FEBF57172CB52CB273A683 /* BlockBasedSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockBasedSelector.swift; path = Sources/BlockBasedSelector/BlockBasedSelector.swift; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986B23520DDCDA1D583D6C531975B134 /* UIControls+Bindable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControls+Bindable.swift"; path = "Sources/UIControls+Bindable.swift"; sourceTree = "<group>"; };
+		9CA421A4EEA38B6774B19E3BAFD8DB21 /* Pods_DataEntryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DataEntryAppTests.framework; path = "Pods-DataEntryAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A941A691443BAA8DC49BB5876B3C9845 /* SimpleTwoWayBinding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleTwoWayBinding-dummy.m"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE70593A8549B3485323922952782D1E /* Pods-DataEntryApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataEntryApp-frameworks.sh"; sourceTree = "<group>"; };
+		C74FC548D0C61290C532EB576E6CFDA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23CF1C60E456472B341C5F704FD4E27 /* Pods-DataEntryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataEntryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C596C046342EA7ECEF03744466B9A2 /* Pods-DataEntryApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataEntryApp-resources.sh"; sourceTree = "<group>"; };
+		FC059E80868F60D16BDD23CFFC421BF1 /* Pods-DataEntryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataEntryApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65012E9C7224C7DE08BDA296063A5556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058F06188894099A6D891F97112AA9C4 /* Foundation.framework in Frameworks */,
+				F083216993065A4DDDC18484D5C37958 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CA31D1683B32D100EBFA6F1E49D28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEDBF101259CC8973955B27DF122942 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56C3F1A830974153F6EEA543AE2913E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0526C6827B64B400141E78406144E8FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		25102C1B392F469D494C65E3DA333819 /* SimpleTwoWayBinding */ = {
+			isa = PBXGroup;
+			children = (
+				225A1B8B884446F282A9951F3CA2CBCF /* Bindable.swift */,
+				18BB8BF5D5921DEF2B528507CFC85B8B /* BlockBasedSelector.h */,
+				6D064A49BAE8835D88B443B85D66927D /* BlockBasedSelector.m */,
+				791BBCC6A6FEBF57172CB52CB273A683 /* BlockBasedSelector.swift */,
+				124C28DB4276D47CAF879DCF09D37B95 /* NSObject+Observable.swift */,
+				33FA1C9A66D76290561A57574207A631 /* Observable.swift */,
+				37216541AA5E6B14EC480E218BFFD40C /* SimpleTwoWayBindings-Bridging-Header.h */,
+				986B23520DDCDA1D583D6C531975B134 /* UIControls+Bindable.swift */,
+				E465C56577EDAB9DA4FA8AF12579864A /* Support Files */,
+			);
+			name = SimpleTwoWayBinding;
+			path = SimpleTwoWayBinding;
+			sourceTree = "<group>";
+		};
+		35CA98F37CA508799AF68FFDD4980B34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C29A0552AEB5D874AD8F275768E36F /* Pods-DataEntryApp */,
+				B3755AA2E10B9E2A45DAC7233EE31C49 /* Pods-DataEntryAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D212ACE6C3F6DB7A4815F4F1BDACC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5997A2A96C1992A985C1EC4E15F40038 /* Pods_DataEntryApp.framework */,
+				9CA421A4EEA38B6774B19E3BAFD8DB21 /* Pods_DataEntryAppTests.framework */,
+				3866BEC33907ABE6FE8D969C637A16D2 /* SimpleTwoWayBinding.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F4F106F8E117E2CB2B222446DEEDE3C8 /* Pods */,
+				5D212ACE6C3F6DB7A4815F4F1BDACC26 /* Products */,
+				35CA98F37CA508799AF68FFDD4980B34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3755AA2E10B9E2A45DAC7233EE31C49 /* Pods-DataEntryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0561E3BDE7D0F70132ED77117A45AB23 /* Info.plist */,
+				335D5203FDB3B5750679951D57EFCE25 /* Pods-DataEntryAppTests.modulemap */,
+				60FB1790F4240B9C3DD488B8130BADD2 /* Pods-DataEntryAppTests-acknowledgements.markdown */,
+				54A6F431EC4D82813A1789B9F8F1D8D8 /* Pods-DataEntryAppTests-acknowledgements.plist */,
+				5FFD952288E5A2B775EA64AFC94BDA8C /* Pods-DataEntryAppTests-dummy.m */,
+				4D8150DF901C7BCEBC95B2D4B04BEAF7 /* Pods-DataEntryAppTests-frameworks.sh */,
+				198C73214A6D5B6FC3B2A71C8C8D0188 /* Pods-DataEntryAppTests-resources.sh */,
+				2B6DA5A90D2BDBF25B8F66CCE19201E6 /* Pods-DataEntryAppTests-umbrella.h */,
+				382A658344D46351563CF90863A21AA8 /* Pods-DataEntryAppTests.debug.xcconfig */,
+				495015D83959362A28D4465D3C21EDF4 /* Pods-DataEntryAppTests.release.xcconfig */,
+			);
+			name = "Pods-DataEntryAppTests";
+			path = "Target Support Files/Pods-DataEntryAppTests";
+			sourceTree = "<group>";
+		};
+		B9C29A0552AEB5D874AD8F275768E36F /* Pods-DataEntryApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E21D499EA4C1E65D0196ECB60B28259 /* Info.plist */,
+				0987FF1FEA6B8A668C3BD11A1DD7C8CD /* Pods-DataEntryApp.modulemap */,
+				00BB3BF36BE98DFB6ED33B911CD4CCFE /* Pods-DataEntryApp-acknowledgements.markdown */,
+				5CDC4171447DB0D86CF4732AE0DA201F /* Pods-DataEntryApp-acknowledgements.plist */,
+				49BFFFDD976BD98F3D80030AA6318AEC /* Pods-DataEntryApp-dummy.m */,
+				BE70593A8549B3485323922952782D1E /* Pods-DataEntryApp-frameworks.sh */,
+				F1C596C046342EA7ECEF03744466B9A2 /* Pods-DataEntryApp-resources.sh */,
+				43C1C7B511642E459E729E866D152347 /* Pods-DataEntryApp-umbrella.h */,
+				D23CF1C60E456472B341C5F704FD4E27 /* Pods-DataEntryApp.debug.xcconfig */,
+				FC059E80868F60D16BDD23CFFC421BF1 /* Pods-DataEntryApp.release.xcconfig */,
+			);
+			name = "Pods-DataEntryApp";
+			path = "Target Support Files/Pods-DataEntryApp";
+			sourceTree = "<group>";
+		};
+		E465C56577EDAB9DA4FA8AF12579864A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C74FC548D0C61290C532EB576E6CFDA8 /* Info.plist */,
+				66E3BD9D00568093077AF9A314E680B8 /* SimpleTwoWayBinding.modulemap */,
+				4B2A1273A07BBBD4926ABAEDA860B446 /* SimpleTwoWayBinding.xcconfig */,
+				A941A691443BAA8DC49BB5876B3C9845 /* SimpleTwoWayBinding-dummy.m */,
+				0126F42C080DF5CB060478263D7D5A5C /* SimpleTwoWayBinding-prefix.pch */,
+				25E00B9409824F624246C06669666465 /* SimpleTwoWayBinding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleTwoWayBinding";
+			sourceTree = "<group>";
+		};
+		F4F106F8E117E2CB2B222446DEEDE3C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25102C1B392F469D494C65E3DA333819 /* SimpleTwoWayBinding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9CB86B1618C3A1A2CD739FBD35D6E555 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDFD6B2A97B67B0DCABD06BD13F2C59 /* Pods-DataEntryApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6444E540043D4CB9ED192326EED5CCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38050C27C8BBD3262FC58CC09B747C7 /* Pods-DataEntryAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F8E1F8ED53E49C4C096F7F6260C88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3278C8CAA654CAFAD26ECDDD9F85508A /* BlockBasedSelector.h in Headers */,
+				FA6B0CE2F6D38B9D0CF1A04D9C6B4EB6 /* SimpleTwoWayBinding-umbrella.h in Headers */,
+				7B6AF942749BFE34D023E22547FF50B0 /* SimpleTwoWayBindings-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		204C7E34BD63C9772D84C405961DB668 /* Pods-DataEntryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBA5DE5A1AB07CC4D59BE4E4978AB1 /* Build configuration list for PBXNativeTarget "Pods-DataEntryApp" */;
+			buildPhases = (
+				FD9BD14B74EA70853AA6CC82500647D2 /* Sources */,
+				C56C3F1A830974153F6EEA543AE2913E /* Frameworks */,
+				9CB86B1618C3A1A2CD739FBD35D6E555 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1206688F0FD414DB7A99655704EC039 /* PBXTargetDependency */,
+			);
+			name = "Pods-DataEntryApp";
+			productName = "Pods-DataEntryApp";
+			productReference = 5997A2A96C1992A985C1EC4E15F40038 /* Pods_DataEntryApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B1185B5492EF8BB0CDE7190E411E80A /* Pods-DataEntryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C4878D7BDB9DA591F29FCC15FB3BEB /* Build configuration list for PBXNativeTarget "Pods-DataEntryAppTests" */;
+			buildPhases = (
+				309057773FB4508B098F9E5879259CD1 /* Sources */,
+				B3CA31D1683B32D100EBFA6F1E49D28E /* Frameworks */,
+				B6444E540043D4CB9ED192326EED5CCA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B056D7963AA53AC39C58DB02D25F23AE /* PBXTargetDependency */,
+			);
+			name = "Pods-DataEntryAppTests";
+			productName = "Pods-DataEntryAppTests";
+			productReference = 9CA421A4EEA38B6774B19E3BAFD8DB21 /* Pods_DataEntryAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCD849A0EB16C72963B13408A18AC115 /* SimpleTwoWayBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EBE81277CF6FBEE7242A318778A9F5 /* Build configuration list for PBXNativeTarget "SimpleTwoWayBinding" */;
+			buildPhases = (
+				F70B2A479602E111830E33B846631279 /* Sources */,
+				65012E9C7224C7DE08BDA296063A5556 /* Frameworks */,
+				F75F8E1F8ED53E49C4C096F7F6260C88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTwoWayBinding;
+			productName = SimpleTwoWayBinding;
+			productReference = 3866BEC33907ABE6FE8D969C637A16D2 /* SimpleTwoWayBinding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D212ACE6C3F6DB7A4815F4F1BDACC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204C7E34BD63C9772D84C405961DB668 /* Pods-DataEntryApp */,
+				3B1185B5492EF8BB0CDE7190E411E80A /* Pods-DataEntryAppTests */,
+				CCD849A0EB16C72963B13408A18AC115 /* SimpleTwoWayBinding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309057773FB4508B098F9E5879259CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D9A42450670650F918016D589951A3 /* Pods-DataEntryAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B2A479602E111830E33B846631279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A2839EE5A4662B749C4E6C70E4613C /* Bindable.swift in Sources */,
+				FA3BE417DF699055113DE0E6808E9330 /* BlockBasedSelector.m in Sources */,
+				8F82F84D143F43516281A3E527B5AFA0 /* BlockBasedSelector.swift in Sources */,
+				247D076AFC91AFD6561A6F1E6A4A0D2C /* NSObject+Observable.swift in Sources */,
+				7F5B0EBC0BD2649602695F8EF15A18DE /* Observable.swift in Sources */,
+				0D885C6B4B0A06CE3A9521A70EC542F0 /* SimpleTwoWayBinding-dummy.m in Sources */,
+				AB24504B8EAD5B1ED00CC277B2AFD8FE /* UIControls+Bindable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD9BD14B74EA70853AA6CC82500647D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F6C812DB87272264A63191342E0C4F /* Pods-DataEntryApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B056D7963AA53AC39C58DB02D25F23AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DataEntryApp";
+			target = 204C7E34BD63C9772D84C405961DB668 /* Pods-DataEntryApp */;
+			targetProxy = 3A60FAF18D5BB86F9931943A139DD907 /* PBXContainerItemProxy */;
+		};
+		F1206688F0FD414DB7A99655704EC039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleTwoWayBinding;
+			target = CCD849A0EB16C72963B13408A18AC115 /* SimpleTwoWayBinding */;
+			targetProxy = 01B561190C3A47BA50842AE8D4CC3C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38F07B6AF8E9DAE34DFFF53D213B5918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC059E80868F60D16BDD23CFFC421BF1 /* Pods-DataEntryApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataEntryApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataEntryApp/Pods-DataEntryApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A49F95E790D6E446528BE5999DD788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495015D83959362A28D4465D3C21EDF4 /* Pods-DataEntryAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataEntryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataEntryAppTests/Pods-DataEntryAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86F6B090F8B6DEF70AA4ACD3554C9DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2A1273A07BBBD4926ABAEDA860B446 /* SimpleTwoWayBinding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleTwoWayBinding/SimpleTwoWayBinding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleTwoWayBinding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleTwoWayBinding/SimpleTwoWayBinding.modulemap";
+				PRODUCT_MODULE_NAME = SimpleTwoWayBinding;
+				PRODUCT_NAME = SimpleTwoWayBinding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B587069F43498DE2163B7ADAF44FD734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23CF1C60E456472B341C5F704FD4E27 /* Pods-DataEntryApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataEntryApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataEntryApp/Pods-DataEntryApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B89249B607B90599AED2C18F7B002F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382A658344D46351563CF90863A21AA8 /* Pods-DataEntryAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataEntryAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataEntryAppTests/Pods-DataEntryAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9EE13D9A2E2ECED8139A2C8514C84F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2A1273A07BBBD4926ABAEDA860B446 /* SimpleTwoWayBinding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleTwoWayBinding/SimpleTwoWayBinding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleTwoWayBinding/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SimpleTwoWayBinding/SimpleTwoWayBinding.modulemap";
+				PRODUCT_MODULE_NAME = SimpleTwoWayBinding;
+				PRODUCT_NAME = SimpleTwoWayBinding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C4878D7BDB9DA591F29FCC15FB3BEB /* Build configuration list for PBXNativeTarget "Pods-DataEntryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89249B607B90599AED2C18F7B002F28 /* Debug */,
+				5A49F95E790D6E446528BE5999DD788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABBA5DE5A1AB07CC4D59BE4E4978AB1 /* Build configuration list for PBXNativeTarget "Pods-DataEntryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B587069F43498DE2163B7ADAF44FD734 /* Debug */,
+				38F07B6AF8E9DAE34DFFF53D213B5918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EBE81277CF6FBEE7242A318778A9F5 /* Build configuration list for PBXNativeTarget "SimpleTwoWayBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F6B090F8B6DEF70AA4ACD3554C9DDE /* Debug */,
+				B9EE13D9A2E2ECED8139A2C8514C84F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

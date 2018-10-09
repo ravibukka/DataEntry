@@ -1,0 +1,51 @@
+[
+    {
+        "Questions": "What is your food type?",
+        "Answers": ["Indian","Chinease","Italian","Continetal"],
+        "ReasonSelect" :[
+            "Is your selection based on country?",
+            "Is your selection based on taste?",
+            "Is your selection based on mood?",
+            "Is your selection based on occasion?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    },
+    {
+        "Questions": "What is your height?",
+        "Answers": ["5.5 ft","6 ft","6.5 ft","5.11 ft"],
+        "ReasonSelect" :[
+            "Is your height is ideal as per BMI?",
+            "Is your height is lesser?",
+            "Is your height is more?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    },
+    {
+        "Questions": "What is your weight?",
+        "Answers": ["60 kg","70 kg","80 kg","90 kg"],
+        "ReasonSelect" :[
+            "You want to reduce the weight?",
+            "You want to increase the weight?",
+            "You want to maintain current weight?"
+        ],
+        "DaySelect" :[
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ]
+    }
+]
